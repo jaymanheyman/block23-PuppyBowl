@@ -1,0 +1,129 @@
+
+#add-player-form {
+    max-width: auto;
+    margin: 10px;
+    
+    background-color: #383838;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+  }
+  
+  #add-player-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  #add-player-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  #add-player-form button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #add-player-form button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  #add-player-form button[type="submit"]:focus {
+    outline: none;
+  }
+  
+  .player-card {
+    background-color: #383838;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .player-card:before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: -1;
+    filter: blur(5px);
+  }
+  
+  .player-card h2 {
+    font-size: 24px;
+    margin-top: 0;
+    background-color: white;
+    color: black;
+    padding: 10px 12px;
+    border-radius: 10px;
+  }
+  
+  .player-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .player-card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .player-card button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .player-card button:hover {
+    background-color: darkred;
+  }
+  
+  header {
+    background-color: darkorange;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid darkorange;
+    border-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .h1 {
+    margin: 0;
+    border: 2px solid black;
+    border-color: black;
+    
+  }
+
+  #page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkorange;
+    color: white;
+    padding: 10px;
+  }
+  
+  #header-image {
+    max-height: 130px;
+    border-radius: 15px;
+  }
+  
+  
